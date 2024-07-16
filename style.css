@@ -503,8 +503,8 @@ article .icon {
 }
 
 .details-container.project:hover button {
-  /* Change paragraph text color on hover */
-  /* color: white; */
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(53, 53, 53);
 }
 
 /* CONTACT */
