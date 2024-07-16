@@ -17,6 +17,7 @@
     display: none;
   }
   #hamburger-nav {
+    background-color: white;
     display: flex;
   }
   #experience,
