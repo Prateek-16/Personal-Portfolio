@@ -406,17 +406,22 @@ section {
   text-align: center;
 }
 
-.details-container.about_sec:hover{
+.details-container:hover{
   background: #e84949;
   transform: translateY(-10px);
 }
 
-.details-container.about_sec:hover h3 {
+.details-container:hover h2 {
   /* Change paragraph text color on hover */
   color: #fff;
 }
 
-.details-container.about_sec:hover p {
+.details-container:hover h3 {
+  /* Change paragraph text color on hover */
+  color: #fff;
+}
+
+.details-container:hover p {
   /* Change paragraph text color on hover */
   color: #fff;
 }
@@ -495,6 +500,11 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
+}
+
+.details-container.project:hover button {
+  /* Change paragraph text color on hover */
+  /* color: white; */
 }
 
 /* CONTACT */
