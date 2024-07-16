@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #fff5f5;
 }
 
 html {
@@ -26,11 +27,20 @@ a,
   transition: all 300ms ease;
 }
 
+
 /* DESKTOP NAV */
 
 nav,
 .nav-links {
   display: flex;
+}
+
+#desktop-nav{
+  background-color: white;
+}
+
+.logo a{
+  color:#e84949
 }
 
 nav {
@@ -215,6 +225,13 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+}
+
+.description {
+  line-height: 1.5rem;
+  color: #33517D;
+  margin-bottom: 2rem;
+  text-align:left;
 }
 
 #socials-container {
