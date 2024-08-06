@@ -54,7 +54,7 @@
         <div class="btn-container">
           <button
             class="btn-pink"
-            onclick="window.open('./assets/Resume-1.pdf','_blank')"
+            onclick="window.open('./assets/Resume-5.pdf','_blank')"
           >
             Download CV
           </button>
@@ -354,27 +354,16 @@
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-            onclick="window.open('mailto:prateekverma54321@gmail.com','_blank')"
-            style = "cursor: pointer;"
-          />
-          <p><a href="mailto:prateekverma54321@gmail.com" target="_blank">prateekverma54321@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-            onclick="window.open('https://www.linkedin.com/in/prateekverma18/','_blank')"
-            style = "cursor: pointer;"
-          />
-          <p><a href="https://www.linkedin.com/in/prateekverma18/" target="_blank">LinkedIn</a></p>
-        </div>
+      <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+          <div class="contact-left-title">
+          </div>
+          <input type="hidden" name="access_key" value="cd082226-9ee6-439b-9f26-012c01e88a98">
+          <input type="text" name = "name" placeholder="Your Name" class ="contact-inputs" required>
+          <input type="email" name = "email" placeholder="Your Email" class="contact-inputs" required>
+          <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </section>
     <footer>

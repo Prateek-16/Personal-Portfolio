@@ -513,38 +513,53 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: auto;
 }
 
-.contact-info-upper-container {
-  display: flex;
-  justify-content: center;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
-  margin: 2rem auto;
-  padding: 0.5rem;
-}
-
-.contact-info-container {
+.contact-container{
+  height: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
+  justify-content: space-evenly;
 }
-
-.contact-info-container p {
-  font-size: larger;
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
-
-.contact-icon {
-  cursor: default;
+.contact-inputs{
+  width: 400px;
+  height: 25px;
+  border: none;
+  outline: none;
+  padding: 25px;
+  color: grey;
+  font-weight: 500;
+  border-radius: 50px;
 }
-
-.email-icon {
-  height: 2.5rem;
+.contact-left textarea{
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.contact-inputs:focus{
+  border: 2px solid black;
+}
+.contact-inputs::placeholder{
+  color:#a9a9a9;
+}
+.contact-left button{
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #ff994f , #fa6d86);
+  cursor : pointer;
 }
 
 /* FOOTER SECTION */

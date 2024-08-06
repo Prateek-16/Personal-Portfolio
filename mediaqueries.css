@@ -62,8 +62,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
+  #footer {
     height: 40vh;
   }
   #profile {
@@ -113,5 +112,8 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .contact-inputs{
+    width: 80vw;
   }
 }
